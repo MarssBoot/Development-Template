@@ -2,7 +2,7 @@
 #include "add.h"
 
 TEST(Addition, CanAddTwoPositiveNumbers) {
-  EXPECT_EQ(add(5, 5), 10);
+  EXPECT_EQ();
 }
 
 TEST(Addition, CanAddTwoNumbersDifferentSign) {
