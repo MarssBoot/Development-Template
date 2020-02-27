@@ -1,8 +1,10 @@
 #include <gtest/gtest.h>
 #include "add.h"
 
-TEST(Addition, CanAddTwoPositiveNumbers) {
-  EXPECT_EQ();
+TEST(Additi, CanAddTwoPositiveNumbers) {
+  Money a(10, 10), b(10, 10)
+    ASSERT_EQ(a+b, 20.20)<<"1 is not equal 0";
+
 }
 
 TEST(Addition, CanAddTwoNumbersDifferentSign) {

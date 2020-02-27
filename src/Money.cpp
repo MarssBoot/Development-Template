@@ -1,4 +1,4 @@
-#include"add.h"
+#include"Money.h"
 Money::Money() {
   rub = 0.0;
   cop = 0.0;

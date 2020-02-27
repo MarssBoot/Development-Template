@@ -1,4 +1,4 @@
-#include "add.h"
+#include "Money.h"
 
 int main() {
   Money c1(1, 60000), c2, c3, c4(600, 200), c5, c6(-5, 10), c7(1, 90), c8, c9;
@@ -12,18 +12,18 @@ int main() {
   cout << c5 << endl;
   if (c1 > c4)
   {
-    cout << "Lox" << endl;
+    cout << "NE POKAZIVAT" << endl;
   }
   if (c1 < c4)
   {
-    cout << "Krasava" << endl;
+    cout << "POKAZI" << endl;
   }
   else {
-    cout << "polni lox" << endl;
+    cout << "NE POKAZI" << endl;
   }
   if (c8 == c9) {
 
-    cout << "you gay" << endl;
+    cout << "POKAZI" << endl;
   }
 
   Money* pc1 = new Money(c1);
